@@ -1,5 +1,5 @@
 .popUp {
-    postion:fixed;
+    position:fixed;
     top:0;
     left:0;
     width:50vw;
@@ -16,4 +16,9 @@
     padding: 1vw;
     width:100%;
     background-color:#57838D;
+    .closeBTN {
+        position:absolute;
+        top: 16px;
+        right: 16px;
+    }
 }

@@ -3,7 +3,7 @@ import Button from './Button.js'
 import popUp from './popUp.js'
 
 const Header = () => {
-  const contactButtonClicked = false;
+  let contactButtonClicked = false;
     const onClick = () => {
       console.log('Clicked')
     }
@@ -19,8 +19,9 @@ const Header = () => {
             <Button txt="Projects" onClick={onClick}></Button>
             <Button txt="Interests" onClick={onClick}></Button>
             <Button txt="Contact Me!" onClick={contacted}></Button>
-            <popUp trigger={contactButtonClicked}>
-              <h3>My Pops</h3>
+            
+            <popUp trigger={true}>
+              <h3>My Popups</h3>
             </popUp>
         </div>
     </div>
