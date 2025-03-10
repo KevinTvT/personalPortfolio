@@ -1,4 +1,4 @@
-import './PopUp.css'
+import './popUp.css'
 
 const PopUp = ({trigger, close_btn}) => {
   return (trigger) ? (
