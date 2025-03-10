@@ -1,15 +1,21 @@
 import '../index.css';
+
+import {useState} from 'react';
+
+// Components
 import Button from './Button.js'
-import popUp from './popUp.js'
+import PopUp from './PopUp.js'
+
 
 const Header = () => {
+  const [buttonPopUp, setButtonPopUp] = useState(false);
   let contactButtonClicked = false;
     const onClick = () => {
       console.log('Clicked')
     }
 
-    const contacted = () => {
-      contactButtonClicked = true;
+    const btnClosed = () => {
+      contactButtonClicked = false;
     }
 
   return (
@@ -18,11 +24,9 @@ const Header = () => {
         <div class="btnList">
             <Button txt="Projects" onClick={onClick}></Button>
             <Button txt="Interests" onClick={onClick}></Button>
-            <Button txt="Contact Me!" onClick={contacted}></Button>
+            <Button txt="Contact Me!" onClick={() => setButtonPopUp(true)}></Button>
             
-            <popUp trigger={true}>
-              <h3>My Popups</h3>
-            </popUp>
+            <PopUp trigger={buttonPopUp} close_btn={() => setButtonPopUp(false)}/>
         </div>
     </div>
   )

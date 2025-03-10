@@ -7,9 +7,10 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
+      <Header/>
 
-      {/* <div class="headshot" >
+
+      <div class="headshot" >
         <img src={require("./media/IMG_9947.jpg")} alt="HEADSHOT"></img>
       </div>
       <div class="aboutME">
@@ -33,7 +34,7 @@ function App() {
             </li>
             <Button txt="Learn More!"></Button>
           </div>
-        </div> */}
+        </div>
     </div>
   );
 }
