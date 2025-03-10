@@ -4,18 +4,13 @@ import {useState} from 'react';
 
 // Components
 import Button from './Button.js'
-import PopUp from './PopUp.js'
+import PopUp from './popUp.js'
 
 
 const Header = () => {
   const [buttonPopUp, setButtonPopUp] = useState(false);
-  let contactButtonClicked = false;
     const onClick = () => {
       console.log('Clicked')
-    }
-
-    const btnClosed = () => {
-      contactButtonClicked = false;
     }
 
   return (
