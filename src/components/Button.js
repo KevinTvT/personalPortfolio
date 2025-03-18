@@ -1,13 +1,19 @@
 import '../index.css'
 
+import { Link } from 'react-router-dom'
+
 const Button = ({txt, onClick}) => {
   return (
-    <button
-        class="button"
-        onClick={onClick}
-    >
+    <Link to="">
+      <button
+          class="button"
+          onClick={onClick}
+          rel="noreferrer"
+      >
         {txt}
-    </button>
+      </button>
+    </Link>
+    
   )
 }
 

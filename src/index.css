@@ -62,10 +62,11 @@
     background-color:#FFE4C9;
     color:black;
     bottom:0;
+    right:1vw;
+    left:50vw;
+    top:50vh;
     position:fixed;
-    bottom:0;
-    height:50vh;
-    margin-top:0;
+    width:50vw;
     vertical-align:center;
     h1 {
       padding-top:1vw;
@@ -92,5 +93,40 @@
     .button:hover {
       background-color:#C29BA3;
     }
+  }
+}
+
+.interesth1 {
+  text-align:center;
+  font-family:'Trebuchet MS';
+}
+
+.photoBorders {
+  background-color:#445A67;
+  left:5vw;
+  right:5vw;
+  top:5vh;
+
+  ul {
+    display:flex;
+    flex-wrap:wrap;
+  }
+
+  li {
+    list-style-type:none;
+    height:30vh;
+    width:auto;
+    flex-grow:1;
+  }
+
+  li:last-child {
+    flex-grow:10;
+  }
+
+  img{
+    max-height:100%;
+    max-width:100%;
+    object-fit:cover;
+    vertical-align:bottom;
   }
 }
