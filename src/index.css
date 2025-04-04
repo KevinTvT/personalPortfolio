@@ -68,6 +68,7 @@
     position:fixed;
     width:50vw;
     vertical-align:center;
+
     h1 {
       padding-top:1vw;
     }
@@ -102,31 +103,22 @@
 }
 
 .photoBorders {
+  padding-top:1vh;
+  padding-left:0.25vw;
   background-color:#445A67;
-  left:5vw;
-  right:5vw;
-  top:5vh;
+  display:grid;
+  grid-template-columns:repeat(auto-fit, 24vw);
+  grid-template-rows:auto;
+  gap: 1vw;
 
-  ul {
-    display:flex;
-    flex-wrap:wrap;
+  .portrait{
+    inline-size:100%;
+    block-size:100%;
+    grid-row:auto / span 2;
   }
-
-  li {
-    list-style-type:none;
-    height:30vh;
-    width:auto;
-    flex-grow:1;
-  }
-
-  li:last-child {
-    flex-grow:10;
-  }
-
-  img{
-    max-height:100%;
-    max-width:100%;
-    object-fit:cover;
-    vertical-align:bottom;
+  .landscape{
+    inline-size:100%;
+    block-size:100%;
+    grid-row:auto;
   }
 }

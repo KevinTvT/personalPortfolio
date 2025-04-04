@@ -4,7 +4,6 @@ import Header from "../components/Header.js"
 import Typewriter from "../components/Typewriter.js"
 import Button from '../components/Button'
 
-
 const Home = () => {
   return (
     <div style={{overflow:"hidden"}}>
