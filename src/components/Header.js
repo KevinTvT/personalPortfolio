@@ -1,24 +1,25 @@
 import '../index.css';
 
-import {useState} from 'react';
+import { useState } from 'react';
+import { Link } from 'react-router-dom'
 
 // Components
 import Button from './Button.js'
-import PopUp from './popUp.js'
+import PopUp from './popUp/popUp.js'
 
 
 const Header = () => {
   const [buttonPopUp, setButtonPopUp] = useState(false);
-    const onClick = () => {
-      console.log('Clicked')
-    }
 
   return (
     <div class="header">
-        <a href="../App.js"><img class="LOGO" src={require("../media/LOGO.png")} alt="LOGO"/></a>
+      <Link to="/personalPortfolio">
+        <img class="LOGO" src={require("../media/LOGO.png")} alt="LOGO"/>
+      </Link>
+        <a href="../App.js"></a>
         <div class="btnList">
-            <Button txt="Projects" onClick={onClick}></Button>
-            <Button txt="Interests" onClick={onClick}></Button>
+            <Link to="/Projects"> <button class="button" rel="noreferrer"> Projects</button> </Link>
+            <Link to="/Interests"> <button class="button" rel="noreferrer"> Interests</button> </Link>
             <Button txt="Contact Me!" onClick={() => setButtonPopUp(true)}></Button>
             
             <PopUp trigger={buttonPopUp} close_btn={() => setButtonPopUp(false)}/>
