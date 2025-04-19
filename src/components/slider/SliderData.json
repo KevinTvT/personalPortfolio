@@ -1,0 +1,19 @@
+[
+    {
+        "title":"Project1",
+        "description":"blah blah blah",
+        "sliderData":[
+            { "image":"https://i.ibb.co/58Mq6Mb/slide1.jpg", "ID":1 },
+            { "image":"https://i.ibb.co/8gwwd4Q/slide2.jpg", "ID":2 }
+        ]
+    },
+
+    {
+        "title":"Project2",
+        "descirption":"uhoh", 
+        "sliderData":[
+            { "image":"https://nie-personal-portfolio.s3.us-east-2.amazonaws.com/interests/IMG_9749.jpg", "ID":1 },
+            { "image":"https://nie-personal-portfolio.s3.us-east-2.amazonaws.com/interests/IMG_5733.jpg", "ID":2 }
+        ]
+    }
+]

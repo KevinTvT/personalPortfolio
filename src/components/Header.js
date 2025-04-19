@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 // Components
 import Button from './Button.js'
-import PopUp from './popUp.js'
+import PopUp from './popUp/popUp.js'
 
 
 const Header = () => {
@@ -18,7 +18,7 @@ const Header = () => {
       </Link>
         <a href="../App.js"></a>
         <div class="btnList">
-            <Link to="/Interests"> <button class="button" rel="noreferrer"> Projects</button> </Link>
+            <Link to="/Projects"> <button class="button" rel="noreferrer"> Projects</button> </Link>
             <Link to="/Interests"> <button class="button" rel="noreferrer"> Interests</button> </Link>
             <Button txt="Contact Me!" onClick={() => setButtonPopUp(true)}></Button>
             

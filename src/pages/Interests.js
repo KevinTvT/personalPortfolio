@@ -1,10 +1,11 @@
 import '../index.css'
 import Header from '../components/Header.js'
-import { useState} from 'react'
+import { useState } from 'react'
+import data from '../media/imageLinks.json'
 
 const Interests = () => {
-  const importAll = (r) => r.keys().map(r);
-  const images = importAll(require.context("../media/images", false, /\.(png|jpe?g|svg)$/));
+  // const importAll = (r) => r.keys().map(r);
+  // const images = importAll(require.context("../media/images", false, /\.(png|jpe?g|svg)$/));
 
   const [dimensions, setDimensions] = useState({ height: 0, width: 0})
   const handleImageLoad = (index, img) => {
@@ -21,7 +22,7 @@ const Interests = () => {
 
       <h1 class="interesth1"> Photo Collage! </h1>
       <div class="photoBorders">
-        {images.map((filename, index) => (
+        {data.map((filename, index) => (
             <img
               onLoad={(e) => handleImageLoad(index, e.target)}
               class={dimensions[index]?.height > dimensions[index]?.width ? "portrait" : "landscape"}
