@@ -1,19 +1,26 @@
 [
     {
-        "title":"Project1",
+        "title":"Lily Pad Plunge",
         "description":"blah blah blah",
         "sliderData":[
-            { "image":"https://i.ibb.co/58Mq6Mb/slide1.jpg", "ID":1 },
-            { "image":"https://i.ibb.co/8gwwd4Q/slide2.jpg", "ID":2 }
+            { "image":"https://nie-personal-portfolio.s3.us-east-2.amazonaws.com/projects/lilypadplunge/IMG_7356.jpg", "ID":1 },
+            { "image":"https://nie-personal-portfolio.s3.us-east-2.amazonaws.com/projects/lilypadplunge/IMG_7357.jpg", "ID":2 },
+            { "image":"https://nie-personal-portfolio.s3.us-east-2.amazonaws.com/projects/lilypadplunge/IMG_7550.jpg", "ID":3},
+            { "image":"https://nie-personal-portfolio.s3.us-east-2.amazonaws.com/projects/lilypadplunge/IMG_7553.jpg", "ID":4}
         ]
     },
 
     {
-        "title":"Project2",
-        "descirption":"uhoh", 
+        "title":"Wind Turbine",
+        "description":"uhoh", 
         "sliderData":[
-            { "image":"https://nie-personal-portfolio.s3.us-east-2.amazonaws.com/interests/IMG_9749.jpg", "ID":1 },
-            { "image":"https://nie-personal-portfolio.s3.us-east-2.amazonaws.com/interests/IMG_5733.jpg", "ID":2 }
+            { "image":"https://nie-personal-portfolio.s3.us-east-2.amazonaws.com/projects/turbine/Screenshot+2025-04-18+204233.png", "ID":1 },
+            { "image":"https://nie-personal-portfolio.s3.us-east-2.amazonaws.com/projects/turbine/Screenshot+2025-04-18+204247.png", "ID":2 },
+            { "image":"https://nie-personal-portfolio.s3.us-east-2.amazonaws.com/projects/turbine/Screenshot+2025-04-18+204328.png", "ID":3 },
+            { "image":"https://nie-personal-portfolio.s3.us-east-2.amazonaws.com/projects/turbine/Screenshot+2025-04-18+204341.png", "ID":4 },
+            { "image":"https://nie-personal-portfolio.s3.us-east-2.amazonaws.com/projects/turbine/Screenshot+2025-04-18+204408.png", "ID":5 },
+            { "image":"https://nie-personal-portfolio.s3.us-east-2.amazonaws.com/projects/turbine/Screenshot+2025-04-18+204422.png", "ID":6 },
+            { "image":"https://nie-personal-portfolio.s3.us-east-2.amazonaws.com/projects/turbine/Screenshot+2025-04-18+204440.png", "ID":7 }
         ]
     }
 ]
