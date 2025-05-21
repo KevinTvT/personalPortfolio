@@ -6,12 +6,44 @@
 
     h2 {
         position:absolute;
-        z-index:100;
-        color:#F6F7F8;
+        z-index:10;
+        color:#FFFFFF;
         mix-blend-mode:exclusion;
         right:5%;
         bottom:5%;
-      }
+    }
+    
+    h3 {
+        position:absolute;
+        z-index:11;
+        color:#FFFFFF;
+        mix-blend-mode:normal;
+        background-color:rgba(0, 0, 0, 0.3);
+        left:5%;
+        bottom:5%;
+        opacity:100%;
+    }
+    
+    p {
+        position: absolute;
+        z-index:11;
+        color:#FFFFFF;
+        font-size:large;
+        font-family:"Trebuchet MS";
+        font-weight:bold;
+        margin-right:5%;
+        left:5%;
+        top:5%;
+        opacity:0%;
+    }
+
+}
+
+.slider:hover {
+    p{
+        opacity:100%;
+        background-color:rgba(0, 0, 0, .3);
+    }
 }
 
 .slide {

@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react'
 import './Slider.css'
 
-const Slider = ({ title, data }) => {
+const Slider = ({ title, description, data }) => {
     const [items, setItems] = useState([]);
     const [currentSlide, setCurrentSlide] = useState(0)
     const slideLength = items.length;
@@ -27,9 +27,10 @@ const Slider = ({ title, data }) => {
   return (
     <div class="slider">
         <h2>{title}</h2>
+        <p>{description}</p>
+        <h3>Click to Learn More!</h3>
         {items.map((slide, index) => {
             return (
-                // need to replace key with a unique ID in the json file
                 <div class={index === currentSlide ? "slide current" : "slide"} key={slide.ID}>
                     {index === currentSlide && (
                         <div>

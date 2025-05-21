@@ -1,5 +1,5 @@
 .backdrop {
-    z-index:1;
+    z-index:16;
     position:absolute;
     top:0;
     left:0;
@@ -15,6 +15,7 @@
         height:30vh;
         background-color:#445A67;
         /* background-color:#33444d; */
+        z-index:17;
 
         display:flex;
         justify-content:center;
@@ -35,6 +36,7 @@
 
         .inner {
             position:absolute;
+            z-index:18;
             padding-top:1%;
             bottom:0px;
             width:100%;

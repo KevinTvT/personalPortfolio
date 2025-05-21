@@ -1,7 +1,7 @@
 [
     {
         "title":"Lily Pad Plunge",
-        "description":"blah blah blah",
+        "description":"An arcade style game where the user drops a frog onto moving lilypads within 60 seconds to score points. This project has three main components: the frame/front console, the gantry system, and conveyor belt system.",
         "sliderData":[
             { "image":"https://nie-personal-portfolio.s3.us-east-2.amazonaws.com/projects/lilypadplunge/IMG_7356.jpg", "ID":1 },
             { "image":"https://nie-personal-portfolio.s3.us-east-2.amazonaws.com/projects/lilypadplunge/IMG_7357.jpg", "ID":2 },
@@ -12,7 +12,7 @@
 
     {
         "title":"Wind Turbine",
-        "description":"uhoh", 
+        "description":"A horizontal-axis wind turbine prototype design with efficiency, low-cost, and durability being the chief goals. This project has two main parts: the frame/struction and the rotors. Our group was successful in achieving our goal with a max power of 1.4 Watts and the max deflection was 1.74 mm at 3,500 grams added.", 
         "sliderData":[
             { "image":"https://nie-personal-portfolio.s3.us-east-2.amazonaws.com/projects/turbine/Screenshot+2025-04-18+204233.png", "ID":1 },
             { "image":"https://nie-personal-portfolio.s3.us-east-2.amazonaws.com/projects/turbine/Screenshot+2025-04-18+204247.png", "ID":2 },
