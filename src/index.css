@@ -6,7 +6,7 @@
   background-color: #445A67;
   color: #F6F7F8;
   text-align: center;
-  height:3vw;
+  height:5vh;
   .LOGO{
       width:4vw;
   }
@@ -18,7 +18,7 @@
       color: #F6F7F8;
       width:10vw;
       right:0;
-      height:3vw;
+      height:5vh;
       border:0;
       font-family:'Trebuchet MS';
       font-weight:bold;

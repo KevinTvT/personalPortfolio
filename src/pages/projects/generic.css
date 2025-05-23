@@ -1,0 +1,101 @@
+* {
+    scrollbar-width:none;
+}
+
+.page {
+    background-color:#F6F7F8;
+
+    h1 {
+        padding-top:2%;
+        text-align:center;
+        font-family:'Trebuchet MS';
+    }
+
+    button{
+        position:absolute;
+        left:5%;
+        top:11%;
+        background-color:#57838D;
+        color:#445A67;
+        width:10vw;
+        height:5vh;
+        border: 5px #445A67;
+        border-radius:10px;
+        font-family:'Trebuchet MS';
+        font-weight:bolder;
+        font-size:120%;
+    }
+    button:hover {
+        background-color:#445A67;
+        color:#F6F7F8;
+    }
+
+    .body {
+        display:grid;
+        margin-left:5%;
+        margin-right:5%;
+        padding-top:1%;
+        grid-template-columns: 47.5% 47.5%;
+        grid-template-rows:auto;
+        row-gap:1%;
+        column-gap:5%;
+        text-align:center;
+
+        p {
+            block-size:100%;
+            font-family:'Trebuchet MS';
+            font-size:larger;
+            align-content:center;
+        }
+        
+        .imageDiv {
+            width:30vw;
+            justify-self:center;
+            background-color:#445A67;
+            border-radius:10px;
+
+            img{
+                position:relative;
+                top:5%;
+                inline-size:90%;
+                block-size:90%;
+            }
+        }
+
+        .imageDivThree {
+            display:grid;
+            grid-template-columns:30% 30% 30%;
+            grid-template-rows:auto-fit;
+            column-gap:3%;
+            background-color:#445A67;
+            border-radius:10px;
+
+            .portrait {
+                position:relative;
+                left:10%;
+                top:5%;
+                inline-size:95%;
+                block-size:90%;
+                grid-column:auto;
+            }
+
+            .landscape2 {
+                position:relative;
+                left:5%;
+                top:5%;
+                inline-size:95%;
+                block-size:90%;
+                grid-column:auto / span 2
+            }
+
+            .landscape3 {
+                position:relative;
+                left:5%;
+                top:5%;
+                inline-size:95%;
+                block-size:90%;
+                grid-column:auto / span 3;
+            }
+        }
+    }
+}
