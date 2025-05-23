@@ -1,0 +1,15 @@
+.video {
+    overflow:hidden;
+    position:relative;
+    left:30%;
+    height:50vh;
+    width: 40%;
+
+    iframe {
+        left:0;
+        top:5%;
+        height:90%;
+        width:100%;
+        position:absolute;
+    }
+}
