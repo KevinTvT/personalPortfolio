@@ -40,9 +40,18 @@
 
 .headshot {
   width:50vw;
-  max-height:49.1vw;
-  overflow:hidden;
+  max-height:95vh;
+  /* overflow:hidden; */
   float:left;
+
+  div {
+    margin:2%;
+    height: 90vh;
+  }
+  img{
+    height:auto;
+    width:100%
+  }
 }
 
 .aboutME {
@@ -50,51 +59,63 @@
   left:50%;
   font-family:'Trebuchet MS';
   width:50vw;
+
   .headerOne {
     color:#445A67;
     font-weight:bold;
-    margin-top:0.5vw;
-    font-size:200%;
+    margin-top:1vh;
+    font-size:700%;
+    transform:scale(.4,1);
   }
   p {
-    margin-left:1vw;
+    text-align:center;
+    vertical-align:middle;
+    margin-left:1vw; 
+    margin-right:1vw;
     font-size:130%;
   }
 
   .curWork {
     background-color:#FFE4C9;
+    position:absolute;
     color:black;
-    bottom:0;
-    right:0;
-    left:50vw;
-    top:50vh;
-    position:fixed;
-    width:50vw;
-    vertical-align:center;
+    bottom: -65vh;
+    right:2.5vw;
+    width:45vw;
 
     h1 {
       padding-top:1vw;
     }
-    li {
-      list-style-type:none;
-      display:flex;
-      margin-left:1vw;
-      margin-bottom:2.5vw;
-      img {
-        height:auto;
-        width:16vw;
+
+    .box {
+      margin-left:2%;
+      display:grid;
+      grid-template-columns: 32.5% 32.5% 32.5%;
+
+      .imageBox {
+        background-color:#F6F7F8;
+        padding:2.5%;
+
+        img {
+          height:100%;
+          width:100%;
+        }
       }
+      
     }
-    .button {
+
+    button {
       background-color:#E3BFB7;
       border:0;
       font-family:'Trebuchet MS';
       font-weight:bold;
       font-size:120%;
+      margin-top:5%;
+      margin-bottom:5%;
+      width:100%;
       padding:0.5vw;
-      transform: translateX(23vw);
     }
-    .button:hover {
+    button:hover {
       background-color:#C29BA3;
     }
   }

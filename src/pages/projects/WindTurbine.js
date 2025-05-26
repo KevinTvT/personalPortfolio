@@ -14,7 +14,7 @@ const WindTurbine = () => {
         <div class="body">
           <p>My team and I were tasked with designing a horizontal-axis wind turbine that is effective, durable, and cost-efficient. Through research we landed on a 3-bladed rotor design with a 10 degree twist and angle of attack from 15-5 degrees to maximize aerodynamic efficiency. We decided to model our tower design after the Eiffel Tower to priotize strength and minimize deflection while staying cheap and lightweight. <br/> <br/> <br/> <br/> This project primarily used my CAD/SOLIDWORKS and FEA analysis knowledge and skills.</p>
           <div class="imageDiv">
-            <YoutubeEmbed embedID={"PtwC7Cc97N0"}/>
+            <YoutubeEmbed embedID={"PtwC7Cc97N0"} width={"40%"} height={"50vh"} left={"30%"}/>
           </div>
 
           <div class="imageDivThree">

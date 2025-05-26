@@ -11,6 +11,17 @@
     },
 
     {
+        "title":"Gyroscopic Water Bottle Holder",
+        "description":"A scooter attachment that has two main components. The top part is a phone holder which can adjust to accomodate the smallest iPhone size (5.4 in) to phones much bigger 7.5 in. The other component is the self-leveling water bottle holder which works by freely spinning the water bottle along with any bumps/slopes so that the beverage doesn't spill.",
+        "sliderData":[
+            {"image":"https://nie-personal-portfolio.s3.us-east-2.amazonaws.com/projects/gyroscopicWaterBottle/Screenshot+2025-05-25+230454.png"},
+            {"image":"https://nie-personal-portfolio.s3.us-east-2.amazonaws.com/projects/gyroscopicWaterBottle/Screenshot+2025-05-25+214234.png"},
+            {"image":"https://nie-personal-portfolio.s3.us-east-2.amazonaws.com/projects/gyroscopicWaterBottle/Screenshot+2025-05-25+230436.png"},
+            {"image":"https://nie-personal-portfolio.s3.us-east-2.amazonaws.com/projects/gyroscopicWaterBottle/Screenshot+2025-05-25+232444.png"}
+        ]
+    },
+
+    {
         "title":"Wind Turbine",
         "description":"A horizontal-axis wind turbine prototype design with efficiency, low-cost, and durability being the chief goals. This project has two main parts: the frame/struction and the rotors. Our group was successful in achieving our goal with a max power of 1.4 Watts and the max deflection was 1.74 mm at 3,500 grams added.", 
         "sliderData":[

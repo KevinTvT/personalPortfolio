@@ -1,12 +1,10 @@
 import PropTypes from "prop-types";
 import './YoutubeEmbed.css'
 
-const YoutubeEmbed = ({embedID, width, height}) => {
+const YoutubeEmbed = ({embedID, width, height, left}) => {
   return (
-    <div class="video">
+    <div class="video" style={{width:width, height:height, left:left}}>
       <iframe
-        width={width}
-        height={height}
         src={'https://www.youtube.com/embed/' + embedID + "?mute=1"}
         allow="autoplay"
         title={embedID}

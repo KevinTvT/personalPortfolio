@@ -6,6 +6,7 @@ import Interests from './pages/Interests.js'
 import Projects from './pages/Projects.js'
 import LilyPadPlunge from './pages/projects/LilyPadPlunge.js';
 import WindTurbine from './pages/projects/WindTurbine.js'
+import GyroscopicWaterBottleHolder from './pages/projects/GyroscopicWaterBottleHolder.js';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/Interests" element={<Interests />}/>
         <Route path="/Projects/LilyPadPlunge" element={<LilyPadPlunge />}/>
         <Route path="/Projects/WindTurbine" element={<WindTurbine />}/>
+        <Route path="/Projects/GyroscopicWaterBottleHolder" element={<GyroscopicWaterBottleHolder/>}/>
       </Routes>
     </div>
   );

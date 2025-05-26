@@ -1,9 +1,6 @@
 .video {
     overflow:hidden;
     position:relative;
-    left:30%;
-    height:50vh;
-    width: 40%;
 
     iframe {
         left:0;
