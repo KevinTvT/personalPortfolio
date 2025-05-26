@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/personalPortfolio/static/css/main.20e62651.css",
-    "main.js": "/personalPortfolio/static/js/main.5d0bf8ef.js",
+    "main.css": "/personalPortfolio/static/css/main.d23346a9.css",
+    "main.js": "/personalPortfolio/static/js/main.5a8e70ed.js",
     "static/js/453.b21437c2.chunk.js": "/personalPortfolio/static/js/453.b21437c2.chunk.js",
-    "static/media/IMG_9607.jpg": "/personalPortfolio/static/media/IMG_9607.d18ee93eca1bcbbe0c7b.jpg",
-    "static/media/Website.png": "/personalPortfolio/static/media/Website.8feaeadd766b76d2f521.png",
-    "static/media/IMG_9560.jpg": "/personalPortfolio/static/media/IMG_9560.7874b95cd4c5d13158e5.jpg",
-    "static/media/IMG_9947.jpg": "/personalPortfolio/static/media/IMG_9947.66acd3e69ac2e8b9d071.jpg",
+    "static/media/Screenshot 2025-05-25 230436.png": "/personalPortfolio/static/media/Screenshot 2025-05-25 230436.6f6a1c6cad737a9e71c5.png",
+    "static/media/Screenshot 2025-05-25 230454.png": "/personalPortfolio/static/media/Screenshot 2025-05-25 230454.462b7997e76a5c7110ec.png",
+    "static/media/DSC01709.JPEG": "/personalPortfolio/static/media/DSC01709.5956488eb7a27f0ccd6c.JPEG",
+    "static/media/Screenshot 2025-05-25 214234.png": "/personalPortfolio/static/media/Screenshot 2025-05-25 214234.e16c5fc1fcbbbb20a67b.png",
     "static/media/LOGO.png": "/personalPortfolio/static/media/LOGO.28968b9c66c12b671a6d.png",
     "index.html": "/personalPortfolio/index.html",
-    "main.20e62651.css.map": "/personalPortfolio/static/css/main.20e62651.css.map",
-    "main.5d0bf8ef.js.map": "/personalPortfolio/static/js/main.5d0bf8ef.js.map",
+    "main.d23346a9.css.map": "/personalPortfolio/static/css/main.d23346a9.css.map",
+    "main.5a8e70ed.js.map": "/personalPortfolio/static/js/main.5a8e70ed.js.map",
     "453.b21437c2.chunk.js.map": "/personalPortfolio/static/js/453.b21437c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.20e62651.css",
-    "static/js/main.5d0bf8ef.js"
+    "static/css/main.d23346a9.css",
+    "static/js/main.5a8e70ed.js"
   ]
 }
